@@ -1,1 +1,1 @@
-This is a SASS port of [https://github.com/yogiben/meteor-admin/](https://github.com/yogiben/meteor-admin/).  All credit goes to yogiben.
+This is version of [https://github.com/yogiben/meteor-admin/](https://github.com/yogiben/meteor-admin/) with a different admin-lte dependency that doesn't require a specific version of bootstrap so it doesn't break projects using a different version.
