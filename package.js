@@ -1,5 +1,5 @@
 Package.describe({
-  name: "tjdfalcon:admin-sass",
+  name: "tjdfalcon:admin",
   summary: "A SASS port of yogiben:admin",
   version: "1.0.0",
   git: "https://github.com/tjdfalcon/meteor-admin"
@@ -27,7 +27,7 @@ Package.on_use(function(api){
     'aldeed:tabular@1.4.0',
     'meteorhacks:unblock@1.1.0',
     'zimme:active-route@2.3.2',
-    'tjdfalcon:admin-lte@0.0.2'
+    'tjdfalcon:admin-lte@0.0.3'
     ],
     both);
 
