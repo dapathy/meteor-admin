@@ -1,7 +1,7 @@
 Package.describe({
   name: "tjdfalcon:admin",
-  summary: "A SASS port of yogiben:admin",
-  version: "1.0.0",
+  summary: "A customized version of yogiben:admin",
+  version: "1.0.1",
   git: "https://github.com/tjdfalcon/meteor-admin"
 });
 
