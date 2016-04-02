@@ -6,11 +6,6 @@ adminCollections = ->
 	if typeof AdminConfig != 'undefined'  and typeof AdminConfig.collections == 'object'
 		collections = AdminConfig.collections
 
-	collections.Users =
-		collectionObject: Meteor.users
-		icon: 'user'
-		label: 'Users'
-
 	_.map collections, (obj, key) ->
 		obj = _.extend obj, {name: key}
 		obj = _.defaults obj, {label: key, icon: 'plus', color: 'blue'}

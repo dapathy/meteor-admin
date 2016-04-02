@@ -1,7 +1,7 @@
 Package.describe({
   name: "tjdfalcon:admin",
   summary: "A customized version of yogiben:admin",
-  version: "1.0.1",
+  version: "1.0.2",
   git: "https://github.com/tjdfalcon/meteor-admin"
 });
 
