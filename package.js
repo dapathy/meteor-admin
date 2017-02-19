@@ -1,7 +1,7 @@
 Package.describe({
   name: "tjdfalcon:admin",
   summary: "A customized version of yogiben:admin",
-  version: "1.0.2",
+  version: "1.0.3",
   git: "https://github.com/tjdfalcon/meteor-admin"
 });
 
@@ -9,7 +9,7 @@ Package.on_use(function(api){
 
   both = ['client','server']
 
-  api.versionsFrom('METEOR@1.0');
+  api.versionsFrom('METEOR@1.3');
 
   api.use(
     ['iron:router@1.0.9',
@@ -17,8 +17,8 @@ Package.on_use(function(api){
     'underscore',
     'reactive-var',
     'check',
-    'aldeed:collection2@2.5.0',
-    'aldeed:autoform@5.5.1',
+    'aldeed:collection2-core@2.0.0',
+    'aldeed:autoform@6.0.0',
     'aldeed:template-extension@4.0.0',
     'alanning:roles@1.2.13',
     'raix:handlebar-helpers@0.2.5',
