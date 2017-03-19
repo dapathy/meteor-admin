@@ -1,8 +1,12 @@
 Package.describe({
   name: "tjdfalcon:admin",
   summary: "A customized version of yogiben:admin",
-  version: "1.0.3",
+  version: "1.0.7",
   git: "https://github.com/tjdfalcon/meteor-admin"
+});
+
+Npm.depends({
+    'simpl-schema':'0.2.3'
 });
 
 Package.on_use(function(api){
@@ -17,6 +21,7 @@ Package.on_use(function(api){
     'underscore',
     'reactive-var',
     'check',
+	'ecmascript',
     'aldeed:collection2-core@2.0.0',
     'aldeed:autoform@6.0.0',
     'aldeed:template-extension@4.0.0',
