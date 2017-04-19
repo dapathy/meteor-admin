@@ -1,7 +1,7 @@
 Package.describe({
   name: "tjdfalcon:admin",
   summary: "A customized version of yogiben:admin",
-  version: "1.0.7",
+  version: "1.0.8",
   git: "https://github.com/tjdfalcon/meteor-admin"
 });
 
@@ -29,7 +29,7 @@ Package.on_use(function(api){
     'raix:handlebar-helpers@0.2.5',
     'reywood:publish-composite@1.4.2',
     'momentjs:moment@2.10.6',
-    'aldeed:tabular@1.4.0',
+    'aldeed:tabular@2.1.1',
     'meteorhacks:unblock@1.1.0',
     'zimme:active-route@2.3.2',
     'tjdfalcon:admin-lte@0.0.3'
