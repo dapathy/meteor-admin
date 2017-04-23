@@ -1,3 +1,8 @@
+import { $ } from 'meteor/jquery';
+import dataTablesBootstrap from 'datatables.net-bs';
+import 'datatables.net-bs/css/dataTables.bootstrap.css';
+dataTablesBootstrap(window, $);
+
 # Add hooks used by many forms
 AutoForm.addHooks [
 		'admin_insert',

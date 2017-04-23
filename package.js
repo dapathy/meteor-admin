@@ -1,15 +1,16 @@
 Package.describe({
   name: "tjdfalcon:admin",
   summary: "A customized version of yogiben:admin",
-  version: "1.0.8",
+  version: "1.0.11",
   git: "https://github.com/tjdfalcon/meteor-admin"
 });
 
 Npm.depends({
-    'simpl-schema':'0.2.3'
+    'simpl-schema':'0.2.3',
+	'datatables.net-bs':'1.10.15'
 });
 
-Package.on_use(function(api){
+Package.onUse(function(api){
 
   both = ['client','server']
 
@@ -40,7 +41,7 @@ Package.on_use(function(api){
 
   api.use(['email'],'server')
 
-  api.add_files([
+  api.addFiles([
     'lib/both/AdminDashboard.coffee',
     'lib/both/router.coffee',
     'lib/both/utils.coffee',
@@ -48,7 +49,7 @@ Package.on_use(function(api){
     'lib/both/collections.coffee'
     ], both);
 
-  api.add_files([
+  api.addFiles([
     'lib/client/html/admin_templates.html',
     'lib/client/html/admin_widgets.html',
     'lib/client/html/admin_layouts.html',
@@ -63,7 +64,7 @@ Package.on_use(function(api){
     'lib/client/js/autoForm.coffee'
     ], 'client');
 
-  api.add_files([
+  api.addFiles([
     'lib/server/publish.coffee',
     'lib/server/methods.coffee'
     ], 'server');
